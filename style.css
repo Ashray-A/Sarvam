@@ -1,3 +1,8 @@
+@font-face{
+  font-family: custom;
+  src: url(samarkan.TTF);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,8 +11,13 @@
   
     
   }
+  .brand{
+    font-family: custom;
+    font-size: 6.25rem;
+  }
   .h_heading{
     color: #F7D274;
+    
   }
   .stat_y{
     color: #fcedc8;
@@ -31,13 +41,13 @@
   }
   .stat{
     text-align: left;
-    font-size: 15pt;
+    font-size: 1.2rem;
     padding-bottom: 1px;
   }
   .h_heading{
     text-align: left;
     padding-top: 80px  ;
-    font-size: 100px;
+    font-size: 6.25em;
   }
   .wrapper{
     padding: 10px 10%;
@@ -83,7 +93,7 @@
   flex-direction: column;
   padding: 0 40px;
   text-align: center;
-  font-size: 14px;
+  font-size: 1em;
   transition: height 0.5s;
   color: #fff;
   }
@@ -92,14 +102,14 @@
   margin-bottom: 5px;
   margin-top: 80%;
   font-family: 'Helvetica', sans-serif;
-  font-size: 30px;
+  font-size: 1.875em;
   letter-spacing: 2px;
   }
   .overlay a {
   margin-top: 10px;
   color: #686767;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875em;
   background: #fff;
   border-radius: 50px;
   text-align: center;

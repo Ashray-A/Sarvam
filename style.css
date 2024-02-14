@@ -134,12 +134,12 @@
   /* community section */
   #community  {
     height: 70vh;
-    background-image: url('comunity.png');
+    background-image: url('community.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: relative;
-    backdrop-filter: blur(0.5px);
+    
   }
 
   /* volunteers blur animation */

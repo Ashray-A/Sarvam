@@ -38,6 +38,8 @@
      background-position: center;
      background-size: cover;
      background-attachment: relative;
+     backdrop-filter: blur(50 px);
+     color: #fff;
   }
 
   .sec_y {

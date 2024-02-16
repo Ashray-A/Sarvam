@@ -79,6 +79,29 @@
 
     
   }
+  /* mission */
+  .goal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .mission{
+    background-color: E1F0DA;
+    height: 40vh;
+  }
+  .mission p{
+    color: #99BC85;
+
+
+  }
+  .mission h2{
+    color: #99BC85;
+    font-size: 3.5rem;
+    padding: 40px 0 0;
+
+  }
 
   .sec_y {
     height: 100vh;
@@ -197,7 +220,7 @@
     align-items: center;
     flex-direction: column;
     font-size: 2.9rem;
-    z-index: 2;
+    
     color: #ffffff;
     padding: 50px 0 0;
     
@@ -263,45 +286,13 @@
   .box:hover .overlay{
     height: 175%;
   }
-  /* navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    color: white;
-  }
-  
-  .navbar-logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar-logo img {
-    width: 50px; /* Adjust size as needed */
-    height: auto;
-    margin-right: 10px;
-  }
-  
-  /* .navbar-name {
-    font-size: 1.2em;
-  }
-  
-  .navbar-links {
-    display: flex;
-  }
-  
-  .navbar-links a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-  } */ */
+
   
   
       
   
    /* buttons styling */
-<<<<<<< HEAD
+
       .main{
           width: 100vw;
           height: 100vh;
@@ -470,7 +461,7 @@
       .nav{
         width: 100%;
       }
-=======
+
    button {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -547,4 +538,4 @@
     margin: 10px 0 0;
     padding: 20px 0 0;
   }
->>>>>>> 3e96169819e27b6511987bdb6e4a547d92327808
+

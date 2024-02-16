@@ -73,11 +73,7 @@
      background-position: center;
      background-size: cover;
      background-attachment: relative;
-     
      background-color: rgba(255,255,255,0.5);
-     
-
-    
   }
   /* mission */
   .goal{
@@ -89,13 +85,11 @@
   }
   .mission{
     background-color: E1F0DA;
-    height: 30vh;
+    height: 22vh;
   }
   .mission p{
     color: #99BC85;
-    padding: 0 0 40px;
-
-
+    padding: 0 0 30px;
 
   }
   .mission h2{

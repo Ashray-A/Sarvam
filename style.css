@@ -195,7 +195,7 @@
   }
   /* community section */
   #community  {
-    height: 70vh;
+    height: 75vh;
     background-image: url('farmSect.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -265,7 +265,7 @@
  
   
   }
-  .overlay a {
+  /* .overlay a {
   margin-top: 10px;
   color: #686767;
   text-decoration: none;
@@ -274,7 +274,7 @@
   border-radius: 50px;
   text-align: center;
   padding: 5px 15px;
-  }
+  } */
   .overlay p{
     color: #e3e1e1;
     padding: 15 px;

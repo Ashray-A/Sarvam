@@ -85,12 +85,14 @@
   }
   .mission{
     background-color: E1F0DA;
-    height: 27vh;
+    height: 32.5vh;
+    
   }
   .mission p{
     color: #99BC85;
     padding: 0 100px 50px;
     font-size:1.5rem;
+    
   }
   .mission h2{
     color: #99BC85;
@@ -454,7 +456,7 @@
         color: blueviolet;
       }
       .navi{
-        padding-top: 15px;
+        padding-top: 0px;
       }
       .nav{
         width: 100%;

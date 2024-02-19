@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "firebase": "^10.6.0",
-    "zulip-js": "^2.0.9"
-  }
-}

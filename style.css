@@ -85,12 +85,14 @@
   }
   .mission{
     background-color: E1F0DA;
-    height: 22vh;
+    height: 32.5vh;
+    
   }
   .mission p{
     color: #99BC85;
-    padding: 0 0 30px;
-
+    padding: 0 100px 50px;
+    font-size:1.5rem;
+    
   }
   .mission h2{
     color: #99BC85;
@@ -182,7 +184,7 @@
     height: 50vh;
     padding: 70px 0 0 50px;
     color: #2CA88C;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 
     
   }
@@ -193,7 +195,7 @@
   }
   /* community section */
   #community  {
-    height: 70vh;
+    height: 75vh;
     background-image: url('farmSect.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -227,8 +229,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 80px 30px 0;
-    font-size: 1.25rem;
+    padding: 80px 70px 0;
+    font-size: 1.5rem;
     
     color: #fff;
   }
@@ -263,7 +265,7 @@
  
   
   }
-  .overlay a {
+  /* .overlay a {
   margin-top: 10px;
   color: #686767;
   text-decoration: none;
@@ -272,7 +274,7 @@
   border-radius: 50px;
   text-align: center;
   padding: 5px 15px;
-  }
+  } */
   .overlay p{
     color: #e3e1e1;
     padding: 15 px;
@@ -453,9 +455,9 @@
       .nav a:hover{
         color: blueviolet;
       }
-      /* .navi{
+      .navi{
         padding-top: 15px;
-      } */
+      }
       .nav{
         width: 100%;
       }

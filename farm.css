@@ -1,3 +1,12 @@
+.farm{
+    background: linear-gradient(#F7D274,#FCE6AD);
+}
+.farm h1{
+    color: #2CA88C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @font-face{
     font-family: custom2;
     src: url(assets/coolveticarg.otf);
@@ -92,33 +101,5 @@
 iframe{
     margin: 25px 0 50px 0;
     height: 50vh;
-}
-h1 {
-    text-align: center;
-    font-family: custom2;
-    font-size: 5rem;
-    color: #252525;
-    padding: 10px 0 30px;
-}
-.agri_com{
-    height: 65vh;
-    background-image: url('assets/community.webp');
-    bright
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: relative;
-    padding: 0 60px 0;
-
-}
-.agri_com h3{
-    text-align: center;
-    padding: 30px 0 40px ;
-    font-size: 3rem;
-    color: rgba(255, 255, 255, 0.716);
-}
-.agri_com p{
-    text-align: center;
-    font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0.827);
+    background: linear-gradient(#2CA88C,#01545A);
 }

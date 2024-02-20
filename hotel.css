@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(#F7D274,#FCE6AD) ;
+    background-repeat: no-repeat;
+    text-decoration-color: rgb(85, 239, 85);
+}
+img{
+    width: 80px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  im
+}
+.quote{
+    text-align: center;
+}
+.auth{
+    text-align: center;
+
+}
+.us{
+    text-align: center;
+}
+.repo{
+    text-align: center;
+}
+.report{
+    
+        background: rgba(255, 255, 255, 0.2); /* Adjust the alpha (fourth parameter) for transparency */
+        backdrop-filter: blur(10px); /* Adjust the blur for the frosted effect */
+        border-radius: 10px;
+        padding: 20px;
+        width: 450px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow if needed */
+        display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.get {
+    background: linear-gradient(90deg, #74ce63, #43a047); /* Green gradient colors */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth transition on hover */
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  .get:hover {
+    background: linear-gradient(90deg, #43a047, #74ce63); /* Reverse gradient colors on hover */
+  }
+  .return{
+   
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+    margin-bottom: 50px;
+}
+  

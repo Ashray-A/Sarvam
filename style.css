@@ -84,7 +84,7 @@
     flex-direction: column;
   }
   .mission{
-    background-color: E1F0DA;
+    background-color: #E1F0DA;
     height: 32.5vh;
     
   }
@@ -139,6 +139,16 @@
     margin-top: 50px;
     
   }
+  .donate button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #01545A;
+    float: right  ;
+  }
+  .donate button:hover{
+      color: #01545A;
+  }
   .box {
   border-radius: 10px;
   position: relative;
@@ -154,6 +164,12 @@
     transition: transform 0.5s;
     border: 10px aliceblue solid;
   
+  }
+  #sec2 h3{
+       padding: 20px 0 0;
+  }
+  .box p{
+    padding: 10px 0 15px;
   }
   .vol_slogan{
     color: #F7D274;
@@ -184,7 +200,7 @@
     height: 50vh;
     padding: 70px 0 0 50px;
     color: #2CA88C;
-    font-size: 1.75rem;
+    font-size: 1.55rem;
 
     
   }
@@ -277,13 +293,13 @@
   } */
   .overlay p{
     color: #e3e1e1;
-    padding: 15 px;
+    padding: 12.5 px;
   }
   .box:hover img{
     transform: scale(1.3);
   }
   .box:hover .overlay{
-    height: 175%;
+    height: 165%;
   }
 
   
@@ -303,14 +319,15 @@
    
       .btn {
           border: 0px solid #fff;
-          padding: 1em 2em;
-          min-width: 200px;
+          padding: 1em 1.5em;
+          min-width: 150px;
           min-height: 50px;
           background: none;
           position: relative;
           border-radius: 5px;
           cursor: pointer;
           box-shadow: inset -2px 1px 11px rgba(0,0,0,0.5);
+          color: #c8ccc6;
       }
    
       a {

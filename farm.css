@@ -1,3 +1,14 @@
+@font-face{
+    font-family: custom2;
+    src: url(assets/coolveticarg.otf);
+  
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
 .farm{
     background: linear-gradient(#F7D274,#FCE6AD);
 }
@@ -7,6 +18,17 @@
     align-items: center;
     justify-content: center;
 }
+@font-face{
+    font-family: custom2;
+    src: url(assets/coolveticarg.otf);
+  
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
 .slider{
     width: 1300px;
     max-width: 1000vw;
@@ -15,6 +37,7 @@
     position: relative;
     overflow: hidden;
     top: 0;
+    backdrop-filter: blur(5px);
 }
 .item img{
     object-fit: cover;
@@ -91,4 +114,60 @@ iframe{
     height: 50vh;
     background: linear-gradient(#2CA88C,#01545A);
 }
+h1 {
+    text-align: center;
+    font-family: custom2;
+    font-size: 5rem;
+    color: #252525;
+    padding: 10px 0 30px;
+}
+.agri_com{
+    height: 65vh;
+    background-image: url('assets/community.webp');
+    filter: brightness(70%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: relative;
+    padding: 0 60px 0;
 
+}
+.agri_com h3{
+    text-align: center;
+    padding: 30px 0 40px ;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.882);
+}
+.agri_com p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.827);
+}
+.agri_com1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.btn{
+    box-shadow: 10px 10px 0 #ffffff6f;
+    top: -5px;
+    left: -5px;
+    color: antiquewhite;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    border: 2.1px solid #fff;
+    background-color: transparent;
+    font-size: 1rem;
+    
+}
+
+.btn:hover{
+    box-shadow: 0 0 0;
+    transition: ease 0.5s ;
+    transition-delay: 0.35s;
+    border: 3.5px solid #fff;
+    border-radius: 7.5px;
+    font-weight: bold;
+    
+}

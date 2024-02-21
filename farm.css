@@ -42,7 +42,7 @@
     top: 0;
     backdrop-filter: blur(5px);
 }
-.item img{
+.item1 img{
     object-fit: cover;
     backdrop-filter: blur(3px);
 }
@@ -127,7 +127,7 @@ h1 {
 .agri_com{
     height: 65vh;
     background-image: url('assets/community.webp');
-    filter: brightness(70%);
+    filter: brightness(90%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -179,9 +179,11 @@ h1 {
     padding: 30px 30px;
     text-align: center;
     background: linear-gradient(#2CA88C,#01545A);
+    
   }
   .container h1{
     color: #F7D274;
+    font-family:  Helvetica;
   }
   
   .items {
@@ -220,4 +222,23 @@ h1 {
   .buy-btn:hover, .rent-btn:hover, .share-btn:hover {
     background-color: #0056b3;
   }
-  
+  .marketplace{
+    backdrop-filter: blur(5px);
+  }
+  .item{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  @media screen and (max-width:540px) 
+{
+    .farm{
+        
+    }
+    .farm h1{
+        font-size: 1.5rem;
+        padding: 10px 0 10px;
+    }
+
+
+}

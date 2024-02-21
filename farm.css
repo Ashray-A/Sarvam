@@ -12,6 +12,9 @@
 .farm{
     background: linear-gradient(#F7D274,#FCE6AD);
 }
+.btn{
+    margin: 5vh 40vw 0 ;
+}
 .farm h1{
     color: #2CA88C;
     display: flex;

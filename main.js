@@ -26,4 +26,19 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.getElementById('lm').addEventListener('click', function() {
+  // Get the mission section
+  var missionSection = document.querySelector('.mission');
+  
+  // Calculate the position to scroll to
+  var scrollPosition = missionSection.offsetTop - 50;
+  
+  // Scroll to the calculated position
+  window.scrollTo({
+    top: scrollPosition,
+    behavior: 'smooth'
+  });
+  });
+
+
 

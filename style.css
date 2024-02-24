@@ -558,7 +558,6 @@ nav.scrolled{
   transform: translateY(-100%);
   
 }
-<<<<<<< HEAD
 .footer-content {
   background-color: #333; /* Set your desired background color */
   color: #fff; /* Set the text color */
@@ -600,7 +599,6 @@ a:hover {
 .participants{
   text-align: center;
 }
-=======
 .donate button{
   right: 300pt; bottom: 50pt;
 }
@@ -725,7 +723,6 @@ a:hover {
 }
 
 }
->>>>>>> 851d37190b5f2cb1a0f0d2a3cd14bf26d6a55b6b
 .footer-content{
   background-color: black;
 }

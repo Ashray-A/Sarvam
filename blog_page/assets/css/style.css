@@ -238,7 +238,7 @@ body.active { overflow: hidden; }
 
 .has-scrollbar {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   overflow-x: auto;
   scroll-snap-type: inline mandatory;
   padding-block-end: 20px;

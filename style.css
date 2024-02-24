@@ -351,6 +351,7 @@
       .btn:hover {
           background-color: #F7D274;
           box-shadow: none;
+          color: #01545A;
       }
    
       .btn:hover svg {

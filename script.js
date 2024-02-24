@@ -1,5 +1,5 @@
 let slider = document.querySelector('.slider .list');
-let items = document.querySelectorAll('.slider .list .item');
+let items = document.querySelectorAll('.slider .list .item1');
 let next = document.getElementById('next');
 let prev = document.getElementById('prev');
 let dots = document.querySelectorAll('.slider .dots li');
@@ -37,7 +37,7 @@ dots.forEach((li, key) => {
 window.onresize = function(event) {
     reloadSlider();
 };
-
+// marketplace
 const buyButtons = document.querySelectorAll('.buy-btn');
 const rentButtons = document.querySelectorAll('.rent-btn');
 const shareButtons = document.querySelectorAll('.share-btn');

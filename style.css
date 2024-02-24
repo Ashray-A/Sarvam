@@ -116,7 +116,7 @@
   .h_heading{
     text-align: left;
     padding-top: 80px  ;
-    font-size: 6.25em;
+    font-size: 4rem;
   }
   /* volunteers section */
   .wrapper{
@@ -556,45 +556,4 @@
 nav.scrolled{
   transform: translateY(-100%);
   
-}
-.footer-content {
-  background-color: #333; /* Set your desired background color */
-  color: #fff; /* Set the text color */
-  padding: 20px; /* Add padding for better spacing */
-}
-
-.copyright {
-  font-size: 14px;
-}
-
-.participants {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 15px; /* Add some margin between copyright and participants */
-}
-
-.participant {
-  width: 48%; /* Adjust the width as needed based on your layout */
-  margin-bottom: 15px; /* Add some space between participants */
-}
-
-.name {
-  font-weight: bold;
-}
-
-a {
-  color: #fff; /* Set the link color */
-  text-decoration: none;
-  margin-left: 5px; /* Add a small margin to separate the name and the link */
-}
-
-a:hover {
-  text-decoration: underline; /* Add underline on hover for better user feedback */
-}
-.copyright{
-  text-align: center;
-}
-.participants{
-  text-align: center;
 }

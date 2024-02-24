@@ -8,3 +8,13 @@ window.addEventListener('scroll', () => {
       nav.classList.remove('scrolled');
     }
   });
+  
+  document.getElementById("myButton1").onclick = function () {
+    location.href = "login.html";
+};
+document.getElementById("myButton2").onclick = function () {
+  location.href = "login.html";
+};
+function hideButton(myButton2) {
+  document.getElementById('myButton2').style.display = 'none';
+}

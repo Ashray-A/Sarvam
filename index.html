@@ -6,12 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/SarvamLogo.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.scss">
+    <!-- <link rel="stylesheet" href="styelss.css"> -->
     <script src="main.js" defer ></script>
     <link rel="icon" type="image/png" href="assets/SarvamLogo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- button link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Sarvam</title>
+    <style>
+      button {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    border: none;
+    font-size: 18px;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    outline: none;
+    border-radius: 3px;
+    margin: 0 10px;
+    padding: 18px 25px;
+    border: 3px solid transparent;
+    border-radius: 12px;
+  }
+  button:active {
+    transform: translateY(3px);
+  }
+  
+  button::after,
+  button::before {
+    border-radius: 3px;
+  }
+    </style>
 </head>
 
 <!-- <header class="header"> -->
@@ -26,8 +51,8 @@
       <a href="#">About Us</a>
     </div>
     <div class="button-container">
-      <button>Sign Up</button>
-      <button>Log in</button>
+      <button id="myButton1" onclick="hideButton(this)">Sign Up</button>
+      <button id="myButton2" >Log in</button>
     </div>
   </nav>
 </header>
@@ -122,7 +147,42 @@
 </body>
 </html>
 
+<footer>
+  <div class="footer-content">
+    <div class="copyright">
+        &copy; 2024 Your Company Name. All rights reserved.
+    </div>
+    <div class="copyright">
+      Our Contact details
+  </div>
+    <div class="participants">
+        <div class="participant">
+            <span class="name">Atrinandan J</span>
+            <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+            <a href="https://www.linkedin.com/in/atrinandan-j-080476260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <span class="email">  Email: atrinandan804@gmail.com</span>
+        </div>
+        <div class="participant">
+            <span class="name">Ashray A</span>
+            <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+            <a href="https://www.linkedin.com/in/ashray24?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <span class="email">  Email: ashraynichinmetlu@gmail.com</span>
+        </div>
+        <div class="participant">
+            <span class="name">Abhinandan</span>
+            <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+            <a href="https://www.linkedin.com/in/abhinandan-5915b425b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <span class="email">  Email: pujariabhinandann@gmail.com</span>
+        </div>
+        <div class="participant">
+            <span class="name">Ajay D</span>
+            <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+            <a href="https://www.linkedin.com/in/ajay-d-80480625a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <span class="email">  Email: ajay041822@gmail.com</span>
+        </div>
+    </div>
+</div>
+</footer>
 </body>
-<footer></footer>
 
 </html>

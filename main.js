@@ -7,7 +7,7 @@
     } else {
       nav.classList.remove('scrolled');
     }
-  });
+  
   
   document.getElementById("myButton1").onclick = function () {
     location.href = "login.html";
@@ -23,7 +23,7 @@ function hideButton(myButton2) {
     } else {
       nav.classList.remove('scrolled');
     }
-  });
+  
 
 document.addEventListener("DOMContentLoaded", function () {
   // Get the home button element

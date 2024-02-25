@@ -116,11 +116,11 @@ form .input-box span.details{
 
    cursor: pointer;
    transition: all 0.4s ease;
-   background: linear-gradient(135deg,#B9D9EB ,#2db1bb);
+   background-color: #B9D9EB ;
  }
  form .button input:hover{
   transform: scale(0.99); 
-  background: linear-gradient(-135deg,#B9D9EB ,#2db1bb);
+  background-color: #2db1bb;
   }
  @media(max-width: 584px){
  .container{
